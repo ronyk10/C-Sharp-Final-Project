@@ -1,0 +1,28 @@
+﻿<Application x:Class="Snake.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Snake"
+             StartupUri="MainWindow.xaml">
+
+    <!-- Définition des ressources globales de l'app (couleur, la police, etc) -->
+    <Application.Resources>
+        
+        <!-- Couleur de fond principale de l'application -->
+        <SolidColorBrush x:Key="BackgroundColor">#211E2B</SolidColorBrush>
+
+        <!-- Couleur de fond de la grille -->
+        <SolidColorBrush x:Key="GridBackgroundColor">#312C40</SolidColorBrush>
+
+        <!-- Couleur des lignes de la grille -->
+        <SolidColorBrush x:Key="GridLineColor">#4F4867</SolidColorBrush>
+
+        <!-- Couleur du texte -->
+        <SolidColorBrush x:Key="TextColor">#EBEBEB</SolidColorBrush>
+
+        <!-- Couleur de superposition (overlay) -->
+        <SolidColorBrush x:Key="OverlayColor">#7F000000</SolidColorBrush>
+
+        <!-- Police principale de l'application -->
+        <FontFamily x:Key="MainFont">Assets/#Droid Sans Mono</FontFamily>
+    </Application.Resources>
+</Application>
