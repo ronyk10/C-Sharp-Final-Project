@@ -8,8 +8,10 @@ Bienvenue dans notre application de jeux classiques ! Cette application regroupe
 
     1. Clonez ce repot sur votre machine locale 
 
-        git clone https://github.com/ronyk10/C-Sharp-Final-Project.git
+        git clone https://github.com/ronyk10/C-Sharp-Final-Project.git                         
 
+ 
+ Ou bien Ouvrir le fichier zip et exécuter la solution : Nalviro.sln
 
 # Les jeux disponibles 
 
