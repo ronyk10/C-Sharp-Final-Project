@@ -3,8 +3,9 @@
 
 Bienvenue dans notre application de jeux classiques ! Cette application regroupe trois jeux emblématiques : Tetris, Morpion et Snake, offrant une expérience de divertissement nostalgique et amusante. 
 
-# Instruction d'installation 
+Tout les jeux contenus dans ce menu ont été coder sur Microsoft Visual Code et avec le langage C# uniquement.
 
+# Instruction d'installation 
 
     1. Clonez ce repot sur votre machine locale 
 
@@ -16,13 +17,18 @@ Bienvenue dans notre application de jeux classiques ! Cette application regroupe
 # Les jeux disponibles 
 
     1. Tetris
-Jouez au célèbre jeu Tetris où vous devez faire correspondre les formes pour compléter des lignes et gagner des points. Utilisez les touches directionnelles pour déplacer et tourner les pièces.
+Jouez au célèbre jeu Tetris où vous devez faire correspondre les formes pour compléter des lignes et gagner des points. Utilisez les touches directionnelles pour déplacer et tourner les pièces. 
+Design pattern utilisés : Observer patter, model view controller, state
 
     2. Morpion
 Défiez un ami ou affrontez l'IA dans le jeu du Morpion classique. Obtenez trois symboles identiques en ligne horizontale, verticale ou diagonale pour remporter la partie.
 
+Design pattern utilisés : Observer patter, model view controller
+
     3. Snake
 Explorez le monde du serpent, où vous devez faire grandir votre serpent en mangeant des fruits tout en évitant les collisions avec les bords du jeu et votre propre corps. Utilisez les touches directionnelles pour guider le serpent.
+
+Design pattern utilisés : Singleton, strategy
 
 #   Commandes
 
